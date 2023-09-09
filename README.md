@@ -17,7 +17,7 @@ To embark on this adventure, you'll need Python 3.6+, 3.7+, 3.8+, 3.9+, 3.10+, J
 ## The Three Epic Chapters
 ### Part 1: Building an Item-Item Recommender with Collaborative Filtering
 
-| |Description |
+| Description| |
 |:-----------|:----------|
 |Objective: Ever wondered how Spotify, Amazon, and Netflix generate "similar item" recommendations for users? In this tutorial, we will build an item-item recommendation system by computing similarity using nearest-neighbor techniques |
 |Key Concepts: Collaborative filtering, content-based filtering, k-nearest neighbors, cosine similarity |
@@ -25,14 +25,14 @@ To embark on this adventure, you'll need Python 3.6+, 3.7+, 3.8+, 3.9+, 3.10+, J
 
 ### Part 2: Handling the Cold Start Problem with Content-based Filtering
 
-| |Description |
+| Description| |
 |:-----------|:----------|
 |Objective: Collaborative filtering struggles with new users and unrated items, known as the cold start problem. Join us in exploring clustering techniques used to tackle this challenge |
 |Requirements: Python 3.6+, 3.7+, 3.8+, 3.9+, 3.10+, Jupyter Lab, numpy, pandas, matplotlib, seaborn, scikit-learn |
 
 ### Part 3: Building an Implicit Feedback Recommender System
 
-| |Description |
+| Description| |
 |:-----------|:----------|
 |Objective: Implicit feedback, unlike explicit ratings, infers a user's preference from indirect interactions. We delve into a specialized recommender model tailored for implicit feedback datasets |
 |Requirements: Python 3.6+, 3.7+, 3.8+, 3.9+, 3.10+,, Jupyter Lab, numpy, pandas, implicit library |
@@ -47,39 +47,28 @@ Through this project, we want to know:
 * Your understanding of how to evaluate recommendation systems.
 * Your process of creating a recommendation system.
 
-Step #1 - Choose a dataset
-The first thing you do is select the dataset you want to complete. You can get the dataset from Kaggle (for convenience).
-Some datasets that have user & item interactions are available on Kaggle:
-* Netflix (movie)
-* Spotify (music)
-* Book recommendation dataset
-* Anime recommendation database
-* Restaurant recommendation
-* Elo merchant category recommendation
+Step #1 - Choose a Dataset:
+Select the MovieLens dataset as your data source. The MovieLens dataset contains user-item interactions and is suitable for building a movie recommendation system.
 
-Step #2 Define the objective of making recommendations
-In this section, you have to determine a few things to envision the recommendation system that can be created.
-* Describe the business problem that can occur
-* Describe how to solve the business problem.
+Step #2 - Define the Objective:
+Business Problem: The MoviePlatform wants to enhance user engagement and satisfaction by providing personalized movie recommendations to its users.
+Solution: Develop a movie recommendation system that suggests movies to users based on their viewing history and preferences.
 
+Step #3 - Recommender System:
 
-Step #3 - Recommender system
-After understanding the business objective, you can select a suitable recommendation system to solve the objective. You need to describe:
-* Framing of the recommender system, e.g. classification or regression or ranking
-* The model of the recommendation system, e.g. non-personalized or personalized
-* Describe how the chosen recommendation system works
-* Describe how to evaluate the recommender system.
-* Describe the workflow modeling that you did.
+Framing: Build a personalized recommendation system using collaborative filtering.
+Model: Use user-item collaborative filtering to provide personalized movie recommendations.
+How It Works: Collaborative filtering leverages user-item interactions to identify similar users or items. It recommends items that similar users have liked.
+Evaluation: Evaluate the recommendation system using metrics like RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error).
+Step #4 - Analysis, Conclusions, and References:
 
-Step #4 - Analysis, conclusions, and references
-The last step is to analyze and conclude your system. You must explain:
-* How you experimented on the hyperparameters to improve the performance of the model.
-* How you determined the best model.
-* How you measure the performance of the recommendation system to optimize business objectives.
+Hyperparameter Experimentation: Experiment with hyperparameters such as the number of neighbors or similarity metrics to optimize the recommendation system's performance.
+Best Model: Determine the best-performing model based on evaluation metrics.
+Performance Measurement: Measure the recommendation system's performance to ensure it aligns with business objectives.
+Easy Report:
 
-Easy report 
-Contains:
-* Business problem and objectives as per Step #2
-* Recommendation system as per Step #3
-* Algorithm implementation & hyperparamater experimentation to improve model performance as per Step #4
-* References
+Business Problem and Objectives: Explain the goal of enhancing user engagement through personalized movie recommendations.
+Recommendation System: Describe the collaborative filtering approach, how it works, and its evaluation.
+Algorithm Implementation: Detail the steps to implement the recommendation system and how hyperparameters were tuned.
+References: Cite any external sources or references used during the project.
+This project plan provides a structured approach to creating a movie recommendation system for MoviePlatform. You can implement each step, document your progress, and create a comprehensive report at the end of the project to showcase your understanding of recommendation systems and your ability to address real-world business objectives.
