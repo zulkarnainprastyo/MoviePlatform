@@ -1,0 +1,7 @@
+# Project dependencies
+pandas==1.3.3             # Data manipulation library
+scikit-learn==0.24.2      # Machine learning library
+scikit-surprise==1.1.1    # Collaborative filtering
+tensorflow==2.7.0         # Deep learning library
+flask==2.1.0              # Web framework for creating a user interface
+numpy==1.21.2             # Numerical computing library

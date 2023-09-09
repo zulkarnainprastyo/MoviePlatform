@@ -1,0 +1,1 @@
+collaborative_filtering_model = train_collaborative_filtering_model(user_ratings)
