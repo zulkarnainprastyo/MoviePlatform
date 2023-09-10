@@ -1,0 +1,26 @@
+language: python
+python:
+  - "3.10"  # You can specify multiple Python versions here
+
+# Install dependencies
+install:
+  - pip install -r requirements.txt
+
+# Run tests or other build commands
+script:
+  - python your_test_script.py  # Replace with your actual test script or build command
+
+# You can add additional configurations as needed
+
+# Define branches to build (optional)
+branches:
+  only:
+    - main  # Build only on the main branch, adjust as needed
+
+# Configure notifications or deployment steps (optional)
+notifications:
+  email:
+    recipients:
+      - zulkarnain.prastyo@binus.ac.id  # Add your email for build notifications
+    on_success: always  # Change to "never" or "change" as desired
+    on_failure: always  # Change to "never" or "change" as desired
