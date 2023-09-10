@@ -1,0 +1,30 @@
+import tensorflow as tf
+from tensorflow import keras
+
+# Define the number of input features (replace with our actual value)
+input_dim = 64
+
+# Define the number of output classes (replace with our actual value)
+output_dim = 10
+
+# Define our neural network model
+model = keras.Sequential([
+    keras.layers.Dense(64, activation='relu', input_shape=(input_dim,), name='dense_layer_1'),
+    keras.layers.Dense(32, activation='relu', name='dense_layer_2'),
+    keras.layers.Dense(output_dim, activation='softmax', name='output_layer')
+])
+
+# Compile the model (define loss, optimizer, and metrics)
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Train the model with our dataset (replace x_train, y_train, x_val, y_val, and epochs with our actual values)
+# history = model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, validation_data=(x_val, y_val))
+
+# Save the trained weights to weights.h5
+model.save_weights('weights.h5')
+
+# We can also save the entire model, including architecture and weights, to a single file:
+# model.save('full_model.h5')
+
+# Later, we can load the weights or the entire model using:
+# model.load_weights('weights.h5') or model = keras.models.load_model('full_model.h5')
