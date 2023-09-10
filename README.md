@@ -74,9 +74,9 @@ References: Cite any external sources or references used during the project.
 This project plan provides a structured approach to creating a movie recommendation system for MoviePlatform. You can implement each step, document your progress, and create a comprehensive report at the end of the project to showcase your understanding of recommendation systems and your ability to address real-world business objectives.
 
 References:
-[1] Koren, Y., Bell, R., & Volinsky, C. (2019). Matrix factorization techniques for recommender systems. IEEE Computer, 42(8), 30–37.
-[2] Surpriselib.org. (2023). Surprise: A Python library for building and analyzing recommender systems. Retrieved from https://surpriselib.org.
-[3] Smith, J., & Johnson, L. (2021). Recommender systems: Best practices and implementation strategies. Tutorial presented at RecSys 2021 Conference, Amsterdam.
-[4] Liu, X., Wu, M., & Zhao, J. (2022). Understanding and improving neural collaborative filtering. ACM Transactions on Information Systems (TOIS), 40(1), 1–25.
-[5] Ricci, F., Rokach, L., & Shapira, B. (2015). Introduction to recommender systems handbook. In Recommender Systems Handbook (pp. 1–35). Springer.
-[6] Aggarwal, C. C. (2016). Recommender systems: The textbook. Springer.
+1. Koren, Y., Bell, R., & Volinsky, C. (2019). Matrix factorization techniques for recommender systems. IEEE Computer, 42(8), 30–37
+2. Surpriselib.org. (2023). Surprise: A Python library for building and analyzing recommender systems. Retrieved from https://surpriselib.org.
+3. Smith, J., & Johnson, L. (2021). Recommender systems: Best practices and implementation strategies. Tutorial presented at RecSys 2021 Conference, Amsterdam.
+4. Liu, X., Wu, M., & Zhao, J. (2022). Understanding and improving neural collaborative filtering. ACM Transactions on Information Systems (TOIS), 40(1), 1–25.
+5. Ricci, F., Rokach, L., & Shapira, B. (2015). Introduction to recommender systems handbook. In Recommender Systems Handbook (pp. 1–35). Springer.
+6. Aggarwal, C. C. (2016). Recommender systems: The textbook. Springer.
